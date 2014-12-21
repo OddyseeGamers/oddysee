@@ -20,7 +20,8 @@ body {
 .navbar-brand > img {
   display: inline;
   padding-right: 5px;
-  padding-bottom: 6px;
+  margin-top: -4px;
+  height:24;
 }
 
 /* Custom page CSS
