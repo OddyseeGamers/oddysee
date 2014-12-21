@@ -52,12 +52,11 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            {% if page.title == "Home" %}
-            <li class="active">
-            {% else %}
-            <li>
-            {% endif %}
-            <a href="#">Home</a></li>
+            {% for tab in site.data.navbar %}
+              <li {% if page.url == tab.url %}class="active"{% endif %}>
+                <a href="{{ page.url }}">{{ tab.name }}</a>
+              </li>
+            {% endfor %}
           </ul>
         </div><!--/.nav-collapse -->
       </div>
