@@ -54,7 +54,7 @@
           <ul class="nav navbar-nav">
             {% for tab in site.data.navbar %}
               <li {% if page.url == tab.url %}class="active"{% endif %}>
-                <a href="{{ tab.url }}">{{ tab.name }}</a>
+                <a href="{{ site.url + '/' + tab.url }}">{{ tab.name }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -63,11 +63,6 @@
     </nav>
 
     <div class="container">
-      <div>
-        {{ page.url }}<br/>
-        {{ site.url }}
-      </div>
-    
       {{ content }}
     </div><!-- /.container -->
 
