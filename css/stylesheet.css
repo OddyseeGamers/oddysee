@@ -4,7 +4,7 @@ body {
   padding:0;
   height:100%;
 }
-#container {
+#main_content_wrap {
   min-height:100%;
   position:relative;
 }
@@ -16,7 +16,7 @@ body {
   padding:10px;
   padding-bottom:60px;   /* Height of the footer */
 }
-#footer {
+#footer_wrap {
   position:absolute;
   bottom:0;
   width:100%;
