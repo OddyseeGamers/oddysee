@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="">
-    <link rel="icon" href="/oddysee/favicon.ico">
+    <link rel="icon" href="{{ site.url }}//favicon.ico">
 
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <link href="/oddysee/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/oddysee/css/stylesheet.css" rel="stylesheet">
+    <link href="{{ site.url }}//css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.url }}//css/stylesheet.css" rel="stylesheet">
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     {% if page.carousel %}
-      <link href="/oddysee/css/flexslider.css" rel="stylesheet" type="text/css">
-      <script src="/oddysee/js/jquery.flexslider-min.js"></script>
+      <link href="{{ site.url }}//css/flexslider.css" rel="stylesheet" type="text/css">
+      <script src="{{ site.url }}//js/jquery.flexslider-min.js"></script>
       <script type="text/javascript" charset="utf-8">
         $(window).load(function() {
           $('.flexslider').flexslider({
@@ -54,7 +54,7 @@
           <ul class="nav navbar-nav">
             {% for tab in site.data.navbar %}
               <li {% if page.url == tab.url %}class="active"{% endif %}>
-                <a href="{{ site.url + '/' + tab.url }}">{{ tab.name }}</a>
+                <a href="{{ site.url }}/{{ tab.url }}">{{ tab.name }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -75,6 +75,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/js/bootstrap.min.js"></script>
   </body>
 </html>
