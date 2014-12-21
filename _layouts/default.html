@@ -54,9 +54,9 @@
           <ul class="nav navbar-nav">
             {% for tab in site.data.navbar %}
               <li {% if page.url == tab.url %}class="active"{% endif %}>
-                <a href="{% if site.exturl != nil %}{{ tab.exturl }}{% else %}{{ site.url }}{{ tab.url }}{% endif %}">{{ tab.name }}</a>
+                <a href="{% if tab.exturl %}{{ tab.exturl }}{% else %}{{ site.url }}{{ tab.url }}{% endif %}">{{ tab.name }}</a>
               </li>
-              <li>{{ site.exturl }}</li>
+              <li>"{{ tab.exturl }}"</li>
             {% endfor %}
           </ul>
         </div><!--/.nav-collapse -->
