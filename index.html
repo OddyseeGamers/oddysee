@@ -1,5 +1,23 @@
 ---
 layout: default
+imagefolder: /images/frontpage
+images:
+  - name: main-logo.jpg
+  - name: apply-today.jpg
+  - name: drake_cutlass.jpg
+  - name: shotatmorear
 ---
 
-Hello there
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+
+<div class="flexslider">
+  <ul class="slides">
+    {% for image in page.images %}
+    <li>
+      <img src="{{ page.imagefolder }}/{{ image.name }}" />
+    </li>
+    {% endfor %}
+  </ul>
+</div
