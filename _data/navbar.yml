@@ -1,4 +1,8 @@
 - name: Home
   url: /
+- name: Fourm
+  exturl: http://oddysee.org/?q=forum
+- name: Wiki
+  exturl: http://oddysee.wikispaces.com/
 - name: About
   url: /about/
