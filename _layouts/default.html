@@ -53,8 +53,8 @@
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
             {% for tab in site.data.navbar %}
-              <li {% if page.url == tab.url."index.html" %}class="active"{% endif %}>
-                <a href="{{ site.url }}{{ tab.url }}">"{{ tab.url.'index.html' }}"</a>
+              <li {% if page.url == tab.url | prepend:"index.html" %}class="active"{% endif %}>
+                <a href="{{ site.url }}{{ tab.url }}">"{{ tab.url | prepend:'index.html' }}"</a>
               </li>
             {% endfor %}
           </ul>
