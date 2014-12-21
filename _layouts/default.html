@@ -54,7 +54,7 @@
           <ul class="nav navbar-nav">
             {% for tab in site.data.navbar %}
               <li {% if page.url == tab.url %}class="active"{% endif %}>
-                <a href="{% if site.exturl == blank %}{{ site.url }}{% endif %}{{ tab.url }}">{{ tab.name }}</a>
+                <a href="{% if site.exturl != blank %}{{ tab.exturl }}{% else %}{{ site.url }}{{ tab.url }}{% endif %}">{{ tab.name }}</a>
               </li>
             {% endfor %}
           </ul>
