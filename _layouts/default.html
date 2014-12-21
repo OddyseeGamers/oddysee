@@ -56,6 +56,7 @@
               <li {% if page.url == tab.url %}class="active"{% endif %}>
                 <a href="{% if site.exturl != nil %}{{ tab.exturl }}{% else %}{{ site.url }}{{ tab.url }}{% endif %}">{{ tab.name }}</a>
               </li>
+              <li>{{ site.exturl }}</li>
             {% endfor %}
           </ul>
         </div><!--/.nav-collapse -->
