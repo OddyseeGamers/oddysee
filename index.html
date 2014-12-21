@@ -1,29 +1,21 @@
 ---
 layout: default
 imagefolder: images/frontpage
-images:
-  - name: main-logo.jpg
-  - name: apply-today.jpg
-  - name: drake_cutlass.jpg
-  - name: shotatmorear.jpg
+carousel:
+  - image: main-logo.jpg
+  - image: apply-today.jpg
+  - image: drake_cutlass.jpg
+  - image: shotatmorear.jpg
 ---
 
-
+{% if page.carousel %}
 <div class="flexslider">
   <ul class="slides">
-    {% for image in page.images %}
+    {% for slides in page.carousel %}
     <li>
-      <img src="{{ page.imagefolder }}/{{ image.name }}" />
+      <img src="{{ slides.image }}">
     </li>
     {% endfor %}
   </ul>
-</div
-
-<link href="css/flexslider.css" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider();
-  });
-</script>
+</div>
+{% endif %}
