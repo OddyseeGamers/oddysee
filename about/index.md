@@ -8,7 +8,6 @@ title: About
 
 The goal for oddysee in the long term is to provide a 'base of operations' so to speak for games, basically a commmunity, the goal is to expand onto other games eventually and when your in those games you will have the option of starting 'oddysee' on that game following the same core principals. All whilst making lifelong friends.
 
-
 ## Scope
 
 Oddysee Scope extends past your typical gaming community, originally created as a 'rebirth' to the founders old past clans in a attempt to bring both communities together, with roots in World of Warcraft and the Call of duty Clan scene.
