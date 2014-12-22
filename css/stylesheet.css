@@ -47,6 +47,7 @@ background-color: #222;
 body > .container {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 .container .text-muted {
   margin: 20px 0;
