@@ -9,7 +9,7 @@ title: Chat rules
 ### Text Version
 
 ```
-\\Incoming Transmission\\
+Incoming Transmission
 
 Greetings Star citizen Oddysee Member
 
@@ -24,5 +24,5 @@ Regards
 Alasmon Necrithious  
 Organisation Leader
 
-\\Transmission terminated\\
+Transmission terminated
 ```
