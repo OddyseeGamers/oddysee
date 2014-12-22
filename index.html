@@ -8,19 +8,6 @@ carousel:
   - image: images/homepage/drake_cutlass.jpg
   - image: images/homepage/shotatmorear.jpg
 ---
-
-{% if page.carousel %}
-<div class="flexslider">
-  <ul class="slides">
-    {% for slides in page.carousel %}
-    <li>
-      <img src="{{ slides.image }}">
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
-
 <ul class="posts">  
   <h1>Latest News</h1>
 	{% for post in site.posts limit:5 %}  
