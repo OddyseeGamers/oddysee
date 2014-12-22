@@ -3,7 +3,7 @@
 - name: News
   url: /news/
 - name: Divisions
-  url: /divisions
+  url: /divisions/
 - name: Fourm
   exturl: http://oddysee.org/?q=forum
 - name: Wiki
