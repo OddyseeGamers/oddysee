@@ -8,7 +8,7 @@ title: Chat rules
 
 ## Text Version
 
-\\Incoming Transmission\\
+\\\\Incoming Transmission\\\\
 
 Greetings Star citizen Oddysee Members  
 Just a friendly reminder that our rules of conduct for chat are as follows:
@@ -21,4 +21,4 @@ Just a friendly reminder that our rules of conduct for chat are as follows:
 Regards  
 Alasmon Necrithious  
 Organisation Leader  
-\\Transmission terminated\\
+\\\\Transmission terminated\\\\
