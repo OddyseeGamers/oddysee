@@ -65,3 +65,7 @@ a:focus {
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
