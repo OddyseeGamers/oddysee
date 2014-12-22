@@ -2,11 +2,11 @@
 layout: post
 title: Chat rules
 ---
-## Video
+### Video
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/jZexq_sTtas" frameborder="0" allowfullscreen></iframe>
 
-## Text Version
+### Text Version
 
 \\\\Incoming Transmission\\\\
 
