@@ -4,7 +4,7 @@ title: Chat rules
 ---
 ## Video
 
-<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/watch?v=jZexq_sTtas?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/jZexq_sTtas" frameborder="0" allowfullscreen></iframe>
 
 ## Text Version
 
