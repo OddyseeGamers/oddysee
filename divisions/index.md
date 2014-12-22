@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /divisions
+permalink: /divisions/
 title: Divisions
 ---
 
