@@ -1,14 +1,5 @@
-
-.flexstrider {
-  overflow: hidden
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
 body > .container {
-  padding: 0;
+  padding: 60px 0 0 0;
   margin: 0;
   width: 100%;
 }
