@@ -4,6 +4,10 @@ html {
   position: relative;
   min-height: 100%;
 }
+.flexstrider {
+  overflow: hidden
+  width: 100%;
+}
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
