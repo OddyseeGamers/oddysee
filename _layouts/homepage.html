@@ -1,45 +1,55 @@
----
-layout: base
----
-<!-- Intro Header -->
-<header class="intro">
-  <div id="intro-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#intro-carousel" data-slide-to="1"></li>
-      <li data-target="#intro-carousel" data-slide-to="2"></li>
-    </ol>
+{% include_relative includes/header.html %}
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="/img/intro-bg.jpg" alt="Oddysee">
-      </div>
-      <div class="item">
-        <img src="http://placehold.it/1920x460" alt="...">
-        <div class="carousel-caption">
-            <h3>Caption Text</h3>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  {% include_relative includes/navbar.html %}
+
+  <!-- Intro Header -->
+  <header class="intro">
+    <div id="intro-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#intro-carousel" data-slide-to="1"></li>
+        <li data-target="#intro-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/img/intro-bg.jpg" alt="Oddysee">
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/1920x460" alt="...">
+          <div class="carousel-caption">
+              <h3>Caption Text</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/1920x460" alt="...">
+          <div class="carousel-caption">
+              <h3>Caption Text</h3>
+          </div>
         </div>
       </div>
-      <div class="item">
-        <img src="http://placehold.it/1920x460" alt="...">
-        <div class="carousel-caption">
-            <h3>Caption Text</h3>
-        </div>
-      </div>
-    </div>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#intro-carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#intro-carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-  </div> <!-- Carousel -->
-</header>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#intro-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#intro-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div> <!-- Carousel -->
+  </header>
 
-{{content}}
+  {{content}}
 
-<script src="/js/homepage.js"></script>
+  {% include_relative includes/footer.html %}
+
+  <script src="/vendor/jquery/js/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/js/homepage.js"></script>
+
+</body>
+
+</html>

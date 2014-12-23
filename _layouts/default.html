@@ -1,6 +1,17 @@
----
-layout: base
----
-<div class="content">
-  {{ content }}
-</div>
+{% include_relative includes/header.html %}
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  {% include_relative includes/navbar.html %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  {% include_relative includes/footer.html %}
+
+  <script src="/vendor/jquery/js/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
