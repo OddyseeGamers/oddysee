@@ -52,16 +52,25 @@
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="{{ site.url }}"></a>
-                    </li>
+                    </li>{% for dale in site.data.nav %}
+ 
+                    <!-- check to see if the data file has a submenu, and if so display it -->
+                    {% if dale.subcategories != null %}
+                    <li class="dropdown">
+                    <a href="{{ site.url }}{{ dale.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ dale.title }}<i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                    {% for subcategory in dale.subcategories %}
+                    <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% else %}
+                 
+                    <!— display the top level navigation for items that don’t have a submenu -->
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                    <a href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
+                    {% endif %}
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -107,9 +116,6 @@
           </a>
         </div> <!-- Carousel -->
     </header>
-    
-    PAGE URL: "{{ page.url }}"<br/>
-    SITE URL: "{{ site.url }}"
     
     {{ content }}
         
