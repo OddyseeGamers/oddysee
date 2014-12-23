@@ -5,7 +5,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="/">
+      <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/">
         Oddysee
       </a>
     </div>
@@ -15,7 +15,7 @@
       <ul class="nav navbar-nav">
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="hidden">
-          <a href="/"></a>
+          <a href="{{ site.baseurl }}"></a>
         </li>
 
         {% for dale in site.data.navbar %}
