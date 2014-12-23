@@ -136,7 +136,7 @@ a:focus {
     -o-background-size: auto 100%;
 }
 
-.intro > .carousel-inner > .item > img {
+.carousel-inner > .item > img {
     margin: 0 auto;
 }
 
