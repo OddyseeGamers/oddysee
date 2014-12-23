@@ -249,6 +249,10 @@ a:focus {
     padding-top: 100px;
 }
 
+.post-section {
+    padding-bottom: 50px;
+}
+
 #news {
     background: #fff;
     color: #000;
