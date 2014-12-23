@@ -8,13 +8,14 @@ carousel:
   - image: images/homepage/drake_cutlass.jpg
   - image: images/homepage/shotatmorear.jpg
 ---
+<section class="content-section text-center">
 <ul class="posts">  
   <h1>Latest News</h1>
-	{% for post in site.posts limit:5 %}  
-	   <li>  
-		   <span>{{ post.date | date_to_string }}</span> &raquo;  
-		   <a href="{{ site.baseurl }}{{ post.url }}">  
-		   {{ post.title }}</a>  
-	   </li>  
-	{% endfor %}  
-</ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo;
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}  
+  </ul>
+</section>
