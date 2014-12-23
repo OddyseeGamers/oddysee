@@ -5,7 +5,8 @@ title: About
 ---
 
 <section class="content-section text-center">
-<div class="container" markdown="1">
+<div class="container">
+<div class="col-lg-8 col-lg-offset-2" markdown="1">
 # About Oddysee
 
 The goal for Oddysee in the long term is to provide a 'base of operations' so to speak for games,
@@ -13,10 +14,12 @@ basically a community, the goal is to expand onto other games eventually and whe
 games you will have the option of starting 'Oddysee' on that game following the same core
 principals. All whilst making lifelong friends.
 </div>
+</div>
 </section>
 
 <section class="section-invert content-section text-center">
-<div class="container" markdown="1">
+<div class="container">
+<div class="col-lg-8 col-lg-offset-2" markdown="1">
 ## Scope
 
 Oddysee Scope extends past your typical gaming community, originally created as a 'rebirth' to the
@@ -28,10 +31,12 @@ several different multiplayer games of all genres, be it FPS, MMORPG's, Space si
 Oddysee aims to be different to other communities which take themselves seriously in terms of
 rankings (Though it is a goal it is not as high up as the other aims.)
 </div>
+</div>
 </section>
 
 <section class="content-section text-center">
-<div class="container" markdown="1">
+<div class="container">
+<div class="col-lg-8 col-lg-offset-2" markdown="1">
 ## Core Values
 
 The core values of Oddysee are as follows:
@@ -44,5 +49,6 @@ The core values of Oddysee are as follows:
 Each person will get out of this organisation only what they themselves are willing to accept and
 what they themselves are willing to put in. This means within the community, and hopefully people
 will acquire life long friends along the way.
+</div>
 </div>
 </section>

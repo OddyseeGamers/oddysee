@@ -276,12 +276,14 @@ a:focus {
 }
 
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 150px;
-    }
-    #news {
-      padding-bottom: 50px;
-      padding-top: 50px;
+  .content-section {
+      padding-top: 150px;
+  }
+  #news {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .container {
   }
 }
 
