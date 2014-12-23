@@ -242,7 +242,7 @@ a:focus {
 }
 
 .content {
-  padding-top: 100px;
+  padding-top: 56px;
 }
 
 .content-section {
@@ -250,7 +250,21 @@ a:focus {
 }
 
 .post-section {
+    padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.post-invert {
+  color: #000;
+  background: #fff;
+}
+
+.post-section a {
+  color: #fff;
+}
+
+.post-invert.post-section a {
+  color: #000;
 }
 
 #news {
@@ -262,7 +276,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
     }
     #news {
       padding-bottom: 50px;
