@@ -1,12 +1,12 @@
 - title: News
-  href: {{ site.baseurl }}/news/
+  href: /news/
 - title: Divisions
-  href: {{ site.baseurl }}/divisions/
+  href: /divisions/
 - title: Fourm
   href: http://oddysee.org/?q=forum
 - title: Wiki
   href: http://oddysee.wikispaces.com/
 - title: About
-  href: {{ site.baseurl }}/about/
+  href: /about/
 - title: Join Now
   href: https://robertsspaceindustries.com/orgs/ODDYSEE
