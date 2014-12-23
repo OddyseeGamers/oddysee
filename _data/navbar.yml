@@ -1,12 +1,12 @@
-- name: News
-  url: /news/
-- name: Divisions
-  url: /divisions/
-- name: Fourm
-  exturl: http://oddysee.org/?q=forum
-- name: Wiki
-  exturl: http://oddysee.wikispaces.com/
-- name: About
-  url: /about/
-- name: Join Now
-  exturl: https://robertsspaceindustries.com/orgs/ODDYSEE
+- title: News
+  href: /news/
+- title: Divisions
+  href: /divisions/
+- title: Fourm
+  href: http://oddysee.org/?q=forum
+- title: Wiki
+  href: http://oddysee.wikispaces.com/
+- title: About
+  href: /about/
+- title: Join Now
+  href: https://robertsspaceindustries.com/orgs/ODDYSEE
