@@ -13,13 +13,13 @@
     <title>{% if page.title %}{{page.title}} – {% endif %}{{site.name}} – {{site.description}}</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{site.url}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/oddysee.css" rel="stylesheet">
+    <link href="{{ site.url }}/css/oddysee.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.url }}/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -51,7 +51,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="{{ site.url }}"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -82,7 +82,7 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="img/intro-bg.jpg" alt="Oddysee">
+              <img src="{{ site.url }}/img/intro-bg.jpg" alt="Oddysee">
             </div>
             <div class="item">
               <img src="http://placehold.it/1920x460" alt="...">
@@ -117,9 +117,9 @@
         </div>
     </footer>
 
-    <script src="vendor/jquery/js/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/oddysee.js"></script>
+    <script src="{{ site.url }}/vendor/jquery/js/jquery.min.js"></script>
+    <script src="{{ site.url }}/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/js/oddysee.js"></script>
 
 </body>
 
