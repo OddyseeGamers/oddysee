@@ -41,7 +41,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand page-scroll" href="/">
                     Oddysee
                 </a>
             </div>
@@ -77,7 +77,8 @@
         </div>
         <!-- /.container -->
     </nav>
-
+    
+    {% if page.url == "/" %}
     <!-- Intro Header -->
     <header class="intro">
         <div id="intro-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
@@ -116,7 +117,8 @@
           </a>
         </div> <!-- Carousel -->
     </header>
-    TEST
+    {% endif %}
+    
     {{ content }}
         
     <!-- Footer -->
