@@ -246,15 +246,16 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .post-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.post-invert {
+.section-invert {
   color: #000;
   background: #fff;
 }
@@ -263,7 +264,7 @@ a:focus {
   color: #fff;
 }
 
-.post-invert.post-section a {
+.section-invert.post-section a {
   color: #000;
 }
 
