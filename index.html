@@ -3,14 +3,16 @@ layout: homepage
 permalink: /
 title: Home
 ---
-<section class="invert content content-small text-center">
-  <ul class="posts">
-    <h1>Latest News</h1>
-    {% for post in site.posts limit:5 %}
-      <li>
-        <span>{{ post.date | date_to_string }}</span> &raquo;
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="invert content-small text-center">
+  <div class="container">
+    <ul class="posts col-lg-8 col-lg-offset-2">
+      <h1>Latest News</h1>
+      {% for post in site.posts limit:5 %}
+        <li>
+          <span>{{ post.date | date_to_string }}</span> &raquo;
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
