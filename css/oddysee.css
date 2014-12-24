@@ -251,6 +251,11 @@ a:focus {
   padding-bottom: 50px;
 }
 
+.content-small {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .invert {
   color: #000;
   background: #fff;
