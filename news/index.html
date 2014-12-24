@@ -4,18 +4,17 @@ permalink: /news/
 ---
 <div class="content posts">
   {% for post in site.posts %}
-  <section class="{% cycle '', 'section-invert' %} post-section text-center" markdown="1">
+  <section class="{% cycle '', 'invert' %} content-section text-center">
     <div class="container">
       <div class="col-lg-8 col-lg-offset-2" markdown="1">
         <article class="post">
 
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+          <h4>{{ post.date | date: "%-d %B %Y" }}</h4>
           <div class="entry">
             {{ post.excerpt }}
           </div>
-
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&bull; &bull; &bull; Read More &bull; &bull; &bull;</a>
         </article>
       </div>
     </div>

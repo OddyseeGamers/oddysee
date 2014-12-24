@@ -17,7 +17,7 @@ principals. All whilst making lifelong friends.
 </div>
 </section>
 
-<section class="section-invert content-section text-center">
+<section class="invert content-section text-center">
 <div class="container">
 <div class="col-lg-8 col-lg-offset-2" markdown="1">
 ## Scope
