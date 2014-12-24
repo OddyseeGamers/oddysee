@@ -13,13 +13,11 @@ with your email address and able to pledge amount.
 
 e.g.
 
-```
-Name: Alasmon Necrithious
-Pledge amount: $xxx
-Email: cykhat@hotmail.com
-Queries: Please put any queries you might have in regards to this here.
-You can do this via: cainsrebel@gmail.com
-```
+    Name: Alasmon Necrithious
+    Pledge amount: $xxx
+    Email: cykhat@hotmail.com
+    Queries: Please put any queries you might have in regards to this here.
+    You can do this via: cainsrebel@gmail.com
 
 Remember though you are donating it does not mean you will be the pilot for it
 as I hope you will understand. This is not something that is imperative for the
@@ -32,5 +30,5 @@ work out money transfers (either via gift cards or paypal) and finalise details
 before getting money together for the Javelin Destroyer (should we meet goal).
 
 Kind regards  
-Alasmon Necrithious 
+Alasmon Necrithious
 Organisation Leader  
