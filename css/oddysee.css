@@ -282,16 +282,11 @@ a:focus {
 }
 
 .invert {
-  /* color: #000; */
   background: #2C3539;
 }
 
 .content-section h1 > a {
   color: #fff;
-}
-
-.invert.content-section h1 > a {
-  color: #000;
 }
 
 .read-more {
@@ -302,16 +297,6 @@ a:focus {
 .read-more:hover {
   background: rgba(255,255,255,.3);
   color: #bce0e8;
-}
-
-.invert .read-more {
-  padding: 1em 2em;
-  color: #0f4955;
-}
-
-.invert .read-more:hover {
-  background: rgba(0,0,0,.3);
-  color: #0a3139;
 }
 
 @media(min-width:767px) {
