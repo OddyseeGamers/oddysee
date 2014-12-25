@@ -1,26 +1,80 @@
 ---
-layout: homepage
+layout:
 permalink: /
 title: Home
 ---
-<section class="content-small text-center">
-  <div class="container">
-    <div class="posts col-lg-8 col-lg-offset-2">
-      <h1><a href="https://robertsspaceindustries.com/orgs/ODDYSEE">JOIN NOW!</a></h1>
-    </div>
-  </div>
-</section>
+{% include layouts/header.html %}
 
-<section class="invert content-small text-center">
-  <div class="container">
-    <ul class="posts col-lg-8 col-lg-offset-2">
-      <h1>Latest News</h1>
-      {% for post in site.posts limit:5 %}
-        <li>
-          <span>{{ post.date | date_to_string }}</span> &raquo;
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  {% include layouts/navbar.html %}
+
+  <!-- Intro Header -->
+  <header class="intro">
+    <div id="intro-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#intro-carousel" data-slide-to="1"></li>
+        <li data-target="#intro-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="{{ site.baseurl }}/img/intro-bg.jpg" alt="Oddysee">
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/1920x460" alt="...">
+          <div class="carousel-caption">
+              <h3>Caption Text</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/1920x460" alt="...">
+          <div class="carousel-caption">
+              <h3>Caption Text</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#intro-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#intro-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div> <!-- Carousel -->
+  </header>
+
+  <section class="content-small text-center">
+    <div class="container">
+      <div class="posts col-lg-8 col-lg-offset-2">
+        <h1><a href="https://robertsspaceindustries.com/orgs/ODDYSEE">JOIN NOW!</a></h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="invert content-small text-center">
+    <div class="container">
+      <ul class="posts col-lg-8 col-lg-offset-2">
+        <h1>Latest News</h1>
+        {% for post in site.posts limit:5 %}
+          <li>
+            <span>{{ post.date | date_to_string }}</span> &raquo;
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  {% include layouts/footer.html %}
+
+  <script src="{{ site.baseurl }}/vendor/jquery/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/js/homepage.js"></script>
+
+</body>
+
+</html>
