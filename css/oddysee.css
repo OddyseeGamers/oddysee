@@ -153,6 +153,19 @@ a:focus {
     -o-background-size: auto 100%;
 }
 
+.intro2 {
+  background: url(../img/intro-bg-2.jpg) no-repeat top center scroll;
+}
+
+#main-brand {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+#main-logo {
+  padding-bottom: 300px;
+}
+
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
@@ -270,7 +283,7 @@ a:focus {
 
 .invert {
   color: #000;
-  background: #fff;
+  background: #888;
 }
 
 .content-section h1 > a {
