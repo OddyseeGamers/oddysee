@@ -1,0 +1,25 @@
+{% include layouts/header.html %}
+
+<body id="page-top">
+  {% include layouts/navbar.html collapsed=true %}
+  
+  {{ content }}
+
+  {% include layouts/footer.html %}
+
+  <script src="{{ site.baseurl }}/vendor/jquery/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="{{ site.baseurl }}/vendor/jquery-ui/jquery-ui.custom.js"></script>
+  <script src="{{ site.baseurl }}/vendor/d3/d3.min.js"></script>
+
+  <script src='{{ site.baseurl }}/tool/js/members.js'></script>
+  <script src='{{ site.baseurl }}/tool/js/struc.js'></script>
+  <script src='{{ site.baseurl }}/tool/js/org_utils.js'></script>
+  <script src='{{ site.baseurl }}/tool/js/widgets.js'></script>
+  <script src='{{ site.baseurl }}/tool/js/app.js'></script>
+
+</body>
+
+
+</html>
