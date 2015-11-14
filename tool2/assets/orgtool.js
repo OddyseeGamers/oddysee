@@ -4375,11 +4375,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 5,
+                "line": 6,
                 "column": 6
               },
               "end": {
-                "line": 10,
+                "line": 11,
                 "column": 6
               }
             },
@@ -4419,9 +4419,9 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["element","action",["toggleUnits"],[],["loc",[null,[6,26],[6,50]]]],
-            ["attribute","class",["concat",["fixedWidth fa ",["subexpr","if",[["get","showUnits",["loc",[null,[7,39],[7,48]]]],"fa-chevron-down","fa-chevron-right"],[],["loc",[null,[7,34],[7,87]]]]]]],
-            ["content","unit.name",["loc",[null,[8,10],[8,23]]]]
+            ["element","action",["toggleUnits"],[],["loc",[null,[7,26],[7,50]]]],
+            ["attribute","class",["concat",["fixedWidth fa ",["subexpr","if",[["get","showUnits",["loc",[null,[8,39],[8,48]]]],"fa-chevron-down","fa-chevron-right"],[],["loc",[null,[8,34],[8,87]]]]]]],
+            ["content","unit.name",["loc",[null,[9,10],[9,23]]]]
           ],
           locals: [],
           templates: []
@@ -4434,11 +4434,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 10,
+                "line": 11,
                 "column": 6
               },
               "end": {
-                "line": 13,
+                "line": 14,
                 "column": 6
               }
             },
@@ -4468,7 +4468,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["content","unit.name",["loc",[null,[12,8],[12,21]]]]
+            ["content","unit.name",["loc",[null,[13,8],[13,21]]]]
           ],
           locals: [],
           templates: []
@@ -4482,11 +4482,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
               "loc": {
                 "source": null,
                 "start": {
-                  "line": 15,
+                  "line": 16,
                   "column": 8
                 },
                 "end": {
-                  "line": 17,
+                  "line": 18,
                   "column": 8
                 }
               },
@@ -4511,7 +4511,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
               return morphs;
             },
             statements: [
-              ["inline","fa-icon",["gear"],[],["loc",[null,[16,10],[16,28]]]]
+              ["inline","fa-icon",["gear"],[],["loc",[null,[17,10],[17,28]]]]
             ],
             locals: [],
             templates: []
@@ -4524,11 +4524,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
               "loc": {
                 "source": null,
                 "start": {
-                  "line": 18,
+                  "line": 19,
                   "column": 8
                 },
                 "end": {
-                  "line": 22,
+                  "line": 23,
                   "column": 8
                 }
               },
@@ -4584,9 +4584,9 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
               return morphs;
             },
             statements: [
-              ["inline","fa-icon",["plus"],[],["loc",[null,[19,26],[19,44]]]],
-              ["inline","fa-icon",["pencil-square-o"],[],["loc",[null,[20,26],[20,55]]]],
-              ["inline","fa-icon",["remove"],[],["loc",[null,[21,26],[21,46]]]]
+              ["inline","fa-icon",["plus"],[],["loc",[null,[20,26],[20,44]]]],
+              ["inline","fa-icon",["pencil-square-o"],[],["loc",[null,[21,26],[21,55]]]],
+              ["inline","fa-icon",["remove"],[],["loc",[null,[22,26],[22,46]]]]
             ],
             locals: [],
             templates: []
@@ -4598,11 +4598,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 14,
+                "line": 15,
                 "column": 6
               },
               "end": {
-                "line": 23,
+                "line": 24,
                 "column": 6
               }
             },
@@ -4628,8 +4628,8 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["block","bs-dropdown-toggle",[],[],0,null,["loc",[null,[15,8],[17,31]]]],
-            ["block","bs-dropdown-menu",[],["class","pull-right"],1,null,["loc",[null,[18,8],[22,29]]]]
+            ["block","bs-dropdown-toggle",[],[],0,null,["loc",[null,[16,8],[18,31]]]],
+            ["block","bs-dropdown-menu",[],["class","pull-right"],1,null,["loc",[null,[19,8],[23,29]]]]
           ],
           locals: [],
           templates: [child0, child1]
@@ -4642,11 +4642,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 28,
+                "line": 29,
                 "column": 4
               },
               "end": {
-                "line": 33,
+                "line": 34,
                 "column": 4
               }
             },
@@ -4686,9 +4686,9 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["element","action",["toggleLeader"],[],["loc",[null,[29,31],[29,56]]]],
-            ["attribute","class",["concat",["fixedWidth fa ",["subexpr","if",[["get","showLeader",["loc",[null,[30,37],[30,47]]]],"fa-chevron-circle-down","fa-chevron-circle-right"],[],["loc",[null,[30,32],[30,100]]]]]]],
-            ["content","unit.leader.length",["loc",[null,[31,16],[31,38]]]]
+            ["element","action",["toggleLeader"],[],["loc",[null,[30,31],[30,56]]]],
+            ["attribute","class",["concat",["fixedWidth fa ",["subexpr","if",[["get","showLeader",["loc",[null,[31,37],[31,47]]]],"fa-chevron-circle-down","fa-chevron-circle-right"],[],["loc",[null,[31,32],[31,100]]]]]]],
+            ["content","unit.leader.length",["loc",[null,[32,16],[32,38]]]]
           ],
           locals: [],
           templates: []
@@ -4701,11 +4701,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 33,
+                "line": 34,
                 "column": 4
               },
               "end": {
-                "line": 36,
+                "line": 37,
                 "column": 4
               }
             },
@@ -4735,7 +4735,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["content","unit.leader.length",["loc",[null,[35,14],[35,36]]]]
+            ["content","unit.leader.length",["loc",[null,[36,14],[36,36]]]]
           ],
           locals: [],
           templates: []
@@ -4748,11 +4748,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 38,
+                "line": 39,
                 "column": 6
               },
               "end": {
-                "line": 42,
+                "line": 43,
                 "column": 6
               }
             },
@@ -4784,7 +4784,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["inline","member-details",[],["member",["subexpr","@mut",[["get","lead",["loc",[null,[40,34],[40,38]]]]],[],[]],"draggable",true,"unassign",true],["loc",[null,[40,10],[40,69]]]]
+            ["inline","member-details",[],["member",["subexpr","@mut",[["get","lead",["loc",[null,[41,34],[41,38]]]]],[],[]],"draggable",true,"unassign",true],["loc",[null,[41,10],[41,69]]]]
           ],
           locals: ["lead"],
           templates: []
@@ -4797,11 +4797,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 48,
+                "line": 49,
                 "column": 4
               },
               "end": {
-                "line": 53,
+                "line": 54,
                 "column": 4
               }
             },
@@ -4841,9 +4841,9 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["element","action",["togglePilots"],[],["loc",[null,[49,31],[49,56]]]],
-            ["attribute","class",["concat",["fixedWidth fa ",["subexpr","if",[["get","showPilots",["loc",[null,[50,37],[50,47]]]],"fa-chevron-circle-down","fa-chevron-circle-right"],[],["loc",[null,[50,32],[50,100]]]]]]],
-            ["content","unit.pilots.length",["loc",[null,[51,16],[51,38]]]]
+            ["element","action",["togglePilots"],[],["loc",[null,[50,31],[50,56]]]],
+            ["attribute","class",["concat",["fixedWidth fa ",["subexpr","if",[["get","showPilots",["loc",[null,[51,37],[51,47]]]],"fa-chevron-circle-down","fa-chevron-circle-right"],[],["loc",[null,[51,32],[51,100]]]]]]],
+            ["content","unit.pilots.length",["loc",[null,[52,16],[52,38]]]]
           ],
           locals: [],
           templates: []
@@ -4856,11 +4856,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 53,
+                "line": 54,
                 "column": 4
               },
               "end": {
-                "line": 56,
+                "line": 57,
                 "column": 4
               }
             },
@@ -4890,7 +4890,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["content","unit.pilots.length",["loc",[null,[55,14],[55,36]]]]
+            ["content","unit.pilots.length",["loc",[null,[56,14],[56,36]]]]
           ],
           locals: [],
           templates: []
@@ -4903,11 +4903,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 58,
+                "line": 59,
                 "column": 6
               },
               "end": {
-                "line": 60,
+                "line": 61,
                 "column": 6
               }
             },
@@ -4932,7 +4932,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["inline","member-details",[],["member",["subexpr","@mut",[["get","pilot",["loc",[null,[59,34],[59,39]]]]],[],[]],"draggable",true,"unassign",true],["loc",[null,[59,10],[59,70]]]]
+            ["inline","member-details",[],["member",["subexpr","@mut",[["get","pilot",["loc",[null,[60,34],[60,39]]]]],[],[]],"draggable",true,"unassign",true],["loc",[null,[60,10],[60,70]]]]
           ],
           locals: ["pilot"],
           templates: []
@@ -4945,11 +4945,11 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "loc": {
               "source": null,
               "start": {
-                "line": 66,
+                "line": 68,
                 "column": 4
               },
               "end": {
-                "line": 68,
+                "line": 70,
                 "column": 4
               }
             },
@@ -4974,7 +4974,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             return morphs;
           },
           statements: [
-            ["inline","unit-tree",[],["unit",["subexpr","@mut",[["get","child",["loc",[null,[67,23],[67,28]]]]],[],[]]],["loc",[null,[67,6],[67,30]]]]
+            ["inline","unit-tree",[],["unit",["subexpr","@mut",[["get","child",["loc",[null,[69,23],[69,28]]]]],[],[]]],["loc",[null,[69,6],[69,30]]]]
           ],
           locals: ["child"],
           templates: []
@@ -4990,7 +4990,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
               "column": 0
             },
             "end": {
-              "line": 74,
+              "line": 76,
               "column": 0
             }
           },
@@ -5003,77 +5003,84 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
           var el0 = dom.createDocumentFragment();
           var el1 = dom.createElement("div");
           dom.setAttribute(el1,"class","unit-tree");
-          var el2 = dom.createTextNode("\n  ");
+          var el2 = dom.createTextNode("\n");
           dom.appendChild(el1, el2);
           var el2 = dom.createElement("div");
-          dom.setAttribute(el2,"class","unit-header");
-          var el3 = dom.createTextNode("\n    ");
+          dom.setAttribute(el2,"class","unit-info");
+          var el3 = dom.createTextNode("\n  ");
           dom.appendChild(el2, el3);
           var el3 = dom.createElement("div");
-          dom.setAttribute(el3,"class","unit-name");
-          var el4 = dom.createTextNode(" \n");
+          dom.setAttribute(el3,"class","unit-header");
+          var el4 = dom.createTextNode("\n    ");
           dom.appendChild(el3, el4);
-          var el4 = dom.createComment("");
+          var el4 = dom.createElement("div");
+          dom.setAttribute(el4,"class","unit-name");
+          var el5 = dom.createTextNode(" \n");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createComment("");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createTextNode(" ");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createComment("");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createTextNode("\n");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createComment("");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createTextNode("    ");
+          dom.appendChild(el4, el5);
           dom.appendChild(el3, el4);
-          var el4 = dom.createTextNode(" ");
+          var el4 = dom.createTextNode("\n  ");
           dom.appendChild(el3, el4);
-          var el4 = dom.createComment("");
-          dom.appendChild(el3, el4);
+          dom.appendChild(el2, el3);
+          var el3 = dom.createTextNode("\n\n  ");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createElement("div");
+          dom.setAttribute(el3,"class","unit-leader-container");
           var el4 = dom.createTextNode("\n");
           dom.appendChild(el3, el4);
           var el4 = dom.createComment("");
           dom.appendChild(el3, el4);
           var el4 = dom.createTextNode("    ");
           dom.appendChild(el3, el4);
+          var el4 = dom.createElement("div");
+          var el5 = dom.createTextNode("\n");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createComment("");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createTextNode("    ");
+          dom.appendChild(el4, el5);
+          dom.appendChild(el3, el4);
+          var el4 = dom.createTextNode("\n    ");
+          dom.appendChild(el3, el4);
+          var el4 = dom.createElement("div");
+          dom.setAttribute(el4,"style","clear: both");
+          dom.appendChild(el3, el4);
+          var el4 = dom.createTextNode("\n  ");
+          dom.appendChild(el3, el4);
           dom.appendChild(el2, el3);
-          var el3 = dom.createTextNode("\n  ");
+          var el3 = dom.createTextNode("\n\n  ");
           dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n\n  ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("div");
-          dom.setAttribute(el2,"class","unit-leader-container");
+          var el3 = dom.createElement("div");
+          dom.setAttribute(el3,"class","unit-pilots-container");
+          var el4 = dom.createTextNode("\n");
+          dom.appendChild(el3, el4);
+          var el4 = dom.createComment("");
+          dom.appendChild(el3, el4);
+          var el4 = dom.createTextNode("    ");
+          dom.appendChild(el3, el4);
+          var el4 = dom.createElement("div");
+          var el5 = dom.createTextNode("\n");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createComment("");
+          dom.appendChild(el4, el5);
+          var el5 = dom.createTextNode("    ");
+          dom.appendChild(el4, el5);
+          dom.appendChild(el3, el4);
+          var el4 = dom.createTextNode("\n  ");
+          dom.appendChild(el3, el4);
+          dom.appendChild(el2, el3);
           var el3 = dom.createTextNode("\n");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createComment("");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createTextNode("    ");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createElement("div");
-          var el4 = dom.createTextNode("\n");
-          dom.appendChild(el3, el4);
-          var el4 = dom.createComment("");
-          dom.appendChild(el3, el4);
-          var el4 = dom.createTextNode("    ");
-          dom.appendChild(el3, el4);
-          dom.appendChild(el2, el3);
-          var el3 = dom.createTextNode("\n    ");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createElement("div");
-          dom.setAttribute(el3,"style","clear: both");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createTextNode("\n  ");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n\n  ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("div");
-          dom.setAttribute(el2,"class","unit-pilots-container");
-          var el3 = dom.createTextNode("\n");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createComment("");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createTextNode("    ");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createElement("div");
-          var el4 = dom.createTextNode("\n");
-          dom.appendChild(el3, el4);
-          var el4 = dom.createComment("");
-          dom.appendChild(el3, el4);
-          var el4 = dom.createTextNode("    ");
-          dom.appendChild(el3, el4);
-          dom.appendChild(el2, el3);
-          var el3 = dom.createTextNode("\n  ");
           dom.appendChild(el2, el3);
           dom.appendChild(el1, el2);
           var el2 = dom.createTextNode("\n\n  ");
@@ -5106,44 +5113,45 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
         },
         buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
           var element6 = dom.childAt(fragment, [0]);
-          var element7 = dom.childAt(element6, [1, 1]);
-          var element8 = dom.childAt(element6, [3]);
-          var element9 = dom.childAt(element8, [3]);
-          var element10 = dom.childAt(element6, [5]);
-          var element11 = dom.childAt(element10, [3]);
-          var element12 = dom.childAt(element6, [7]);
+          var element7 = dom.childAt(element6, [1]);
+          var element8 = dom.childAt(element7, [1, 1]);
+          var element9 = dom.childAt(element7, [3]);
+          var element10 = dom.childAt(element9, [3]);
+          var element11 = dom.childAt(element7, [5]);
+          var element12 = dom.childAt(element11, [3]);
+          var element13 = dom.childAt(element6, [3]);
           var morphs = new Array(14);
-          morphs[0] = dom.createMorphAt(element7,1,1);
-          morphs[1] = dom.createMorphAt(element7,3,3);
-          morphs[2] = dom.createMorphAt(element7,5,5);
-          morphs[3] = dom.createAttrMorph(element8, 'data-unitid');
-          morphs[4] = dom.createMorphAt(element8,1,1);
-          morphs[5] = dom.createAttrMorph(element9, 'class');
-          morphs[6] = dom.createMorphAt(element9,1,1);
-          morphs[7] = dom.createAttrMorph(element10, 'data-unitid');
-          morphs[8] = dom.createMorphAt(element10,1,1);
-          morphs[9] = dom.createAttrMorph(element11, 'class');
-          morphs[10] = dom.createMorphAt(element11,1,1);
-          morphs[11] = dom.createAttrMorph(element12, 'class');
-          morphs[12] = dom.createMorphAt(dom.childAt(element12, [1]),1,1);
-          morphs[13] = dom.createMorphAt(element6,9,9);
+          morphs[0] = dom.createMorphAt(element8,1,1);
+          morphs[1] = dom.createMorphAt(element8,3,3);
+          morphs[2] = dom.createMorphAt(element8,5,5);
+          morphs[3] = dom.createAttrMorph(element9, 'data-unitid');
+          morphs[4] = dom.createMorphAt(element9,1,1);
+          morphs[5] = dom.createAttrMorph(element10, 'class');
+          morphs[6] = dom.createMorphAt(element10,1,1);
+          morphs[7] = dom.createAttrMorph(element11, 'data-unitid');
+          morphs[8] = dom.createMorphAt(element11,1,1);
+          morphs[9] = dom.createAttrMorph(element12, 'class');
+          morphs[10] = dom.createMorphAt(element12,1,1);
+          morphs[11] = dom.createAttrMorph(element13, 'class');
+          morphs[12] = dom.createMorphAt(dom.childAt(element13, [1]),1,1);
+          morphs[13] = dom.createMorphAt(element6,5,5);
           return morphs;
         },
         statements: [
-          ["block","if",[["get","unit.units",["loc",[null,[5,12],[5,22]]]]],[],0,1,["loc",[null,[5,6],[13,13]]]],
-          ["content","unit.id",["loc",[null,[13,14],[13,25]]]],
-          ["block","bs-dropdown",[],["class","unit-menu"],2,null,["loc",[null,[14,6],[23,22]]]],
-          ["attribute","data-unitid",["get","unit.id",["loc",[null,[27,51],[27,58]]]]],
-          ["block","if",[["get","unit.leader",["loc",[null,[28,10],[28,21]]]]],[],3,4,["loc",[null,[28,4],[36,11]]]],
-          ["attribute","class",["concat",["unit-leader ",["subexpr","unless",[["get","showLeader",["loc",[null,[37,37],[37,47]]]],"hide"],[],["loc",[null,[37,28],[37,56]]]]]]],
-          ["block","each",[["get","unit.leader",["loc",[null,[38,14],[38,25]]]]],[],5,null,["loc",[null,[38,6],[42,15]]]],
-          ["attribute","data-unitid",["get","unit.id",["loc",[null,[47,51],[47,58]]]]],
-          ["block","if",[["get","unit.pilots",["loc",[null,[48,10],[48,21]]]]],[],6,7,["loc",[null,[48,4],[56,11]]]],
-          ["attribute","class",["concat",["unit-pilots ",["subexpr","unless",[["get","showPilots",["loc",[null,[57,37],[57,47]]]],"hide"],[],["loc",[null,[57,28],[57,56]]]]]]],
-          ["block","each",[["get","unit.pilots",["loc",[null,[58,14],[58,25]]]]],[],8,null,["loc",[null,[58,6],[60,15]]]],
-          ["attribute","class",["concat",["unit-bg ",["subexpr","unless",[["get","showUnits",["loc",[null,[64,31],[64,40]]]],"hide"],[],["loc",[null,[64,22],[64,49]]]]]]],
-          ["block","each",[["get","unit.units",["loc",[null,[66,12],[66,22]]]]],[],9,null,["loc",[null,[66,4],[68,13]]]],
-          ["content","yield",["loc",[null,[72,2],[72,11]]]]
+          ["block","if",[["get","unit.units",["loc",[null,[6,12],[6,22]]]]],[],0,1,["loc",[null,[6,6],[14,13]]]],
+          ["content","unit.id",["loc",[null,[14,14],[14,25]]]],
+          ["block","bs-dropdown",[],["class","unit-menu"],2,null,["loc",[null,[15,6],[24,22]]]],
+          ["attribute","data-unitid",["get","unit.id",["loc",[null,[28,51],[28,58]]]]],
+          ["block","if",[["get","unit.leader",["loc",[null,[29,10],[29,21]]]]],[],3,4,["loc",[null,[29,4],[37,11]]]],
+          ["attribute","class",["concat",["unit-leader ",["subexpr","unless",[["get","showLeader",["loc",[null,[38,37],[38,47]]]],"hide"],[],["loc",[null,[38,28],[38,56]]]]]]],
+          ["block","each",[["get","unit.leader",["loc",[null,[39,14],[39,25]]]]],[],5,null,["loc",[null,[39,6],[43,15]]]],
+          ["attribute","data-unitid",["get","unit.id",["loc",[null,[48,51],[48,58]]]]],
+          ["block","if",[["get","unit.pilots",["loc",[null,[49,10],[49,21]]]]],[],6,7,["loc",[null,[49,4],[57,11]]]],
+          ["attribute","class",["concat",["unit-pilots ",["subexpr","unless",[["get","showPilots",["loc",[null,[58,37],[58,47]]]],"hide"],[],["loc",[null,[58,28],[58,56]]]]]]],
+          ["block","each",[["get","unit.pilots",["loc",[null,[59,14],[59,25]]]]],[],8,null,["loc",[null,[59,6],[61,15]]]],
+          ["attribute","class",["concat",["unit-bg ",["subexpr","unless",[["get","showUnits",["loc",[null,[66,31],[66,40]]]],"hide"],[],["loc",[null,[66,22],[66,49]]]]]]],
+          ["block","each",[["get","unit.units",["loc",[null,[68,12],[68,22]]]]],[],9,null,["loc",[null,[68,4],[70,13]]]],
+          ["content","yield",["loc",[null,[74,2],[74,11]]]]
         ],
         locals: [],
         templates: [child0, child1, child2, child3, child4, child5, child6, child7, child8, child9]
@@ -5159,7 +5167,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
             "column": 0
           },
           "end": {
-            "line": 75,
+            "line": 77,
             "column": 0
           }
         },
@@ -5182,7 +5190,7 @@ define('orgtool/templates/components/unit-tree', ['exports'], function (exports)
         return morphs;
       },
       statements: [
-        ["block","if",[["get","unit",["loc",[null,[1,6],[1,10]]]]],[],0,null,["loc",[null,[1,0],[74,7]]]]
+        ["block","if",[["get","unit",["loc",[null,[1,6],[1,10]]]]],[],0,null,["loc",[null,[1,0],[76,7]]]]
       ],
       locals: [],
       templates: [child0]

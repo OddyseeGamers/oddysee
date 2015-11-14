@@ -22,7 +22,7 @@ html, body {
 #mycontent {
   width: 100%;
   height: calc(100% - 43px);
-  background-color: #242424; }
+  background-color: #0A0C11; }
 
 .ui-draggable-dragging {
   /*   cursor: move; */
@@ -115,13 +115,18 @@ text {
 
 .unit-tree {
   padding-top: 10px; }
+  .unit-tree .unit-info {
+    background-color: #242424;
+    border-radius: 4px; }
   .unit-tree .unit-header {
     padding-left: 10px;
-    min-height: 30px;
-    background-color: #29292a; }
+    min-height: 35px; }
     .unit-tree .unit-header .unit-name {
       color: #1a80b6;
       font-size: 16px;
+      min-height: 40px;
+      vertical-align: middle;
+      line-height: 40px;
       border-bottom: 1px solid #444;
       font-weight: bold; }
       .unit-tree .unit-header .unit-name a.toggle {
@@ -147,15 +152,12 @@ text {
   .unit-tree .unit-leader-container {
     padding-top: 10px;
     padding-left: 10px;
-    min-height: 30px;
-    background-color: #29292a; }
+    min-height: 30px; }
   .unit-tree .unit-pilots-container {
     padding-top: 10px;
     padding-left: 10px;
-    min-height: 30px;
-    background-color: #29292a; }
+    min-height: 30px; }
   .unit-tree .unit-pilots {
-    background-color: #29292a;
     padding-top: 10px;
     padding-left: 20px; }
   .unit-tree .child-units {
@@ -270,7 +272,7 @@ text {
 .nav-tabs {
   /*border-bottom: 1px solid rgba(255,255,255,.3);*/
   border-bottom: 0px;
-  background-color: #29292a; }
+  background-color: #101215; }
 
 .nav-pills {
   background-color: #242424; }
@@ -317,7 +319,7 @@ text {
   /*     border-color: #337ab7; */ }
 
 .panel {
-  background-color: #242424;
+  background-color: #0A0C11;
   border: 0px; }
 
 .list-group-item {
